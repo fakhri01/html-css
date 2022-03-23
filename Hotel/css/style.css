@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Smooch Sans', sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 10px 0;
+}
+
+/* Utility */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lg-heading {
+    font-size: 40px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #f7c08a;
+}
+
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    color: #333;
+    background-color: #f7c08a;
+}
+
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+
+
+
+/* Navbar */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar h1 {
+    padding-top: 20px;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar li {
+    list-style-type: none;
+}
+
+#navbar li a {
+    display: block;
+    padding: 20px;
+    transition: .3s;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    background: #444;
+    color: #f7c08a;
+}
+
+.showcase {
+    height: 600px;
+    background: url('../img//hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.showcase .showcase-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.showcase .showcase-content p {
+    font-size: 22px;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+
+/* Home Info */
+.home-info {
+    height: 450px;
+    display: flex;
+}
+
+.home-info .info-img {
+    width: 50%;
+    min-height: 100%;
+    background: url('../img/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-info .info-content {
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.home-info .info-content p {
+    text-align: center;
+}
+
+/* Feature */
+
+.features {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    min-height: 100%;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box h3 {
+    margin-top: 20px;
+}
+
+/* About Page */
+/* Info */
+.about-info .container {
+    display: flex;
+}
+
+.about-info .info-left,
+.about-info .info-right {
+    width: 50%;
+    min-height: 100%;
+}
+
+.about-info .info-right img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.testimonials {
+    width: 100%;
+    height: 100%;
+    background: url('../img/exterior.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+}
+
+
+.testimonials .guest {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 40px;
+    opacity: .9;
+}
+
+.testimonials .guest img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.testimonials .container h2 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+
+/* Contact Page */
+/* Form */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-info .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
