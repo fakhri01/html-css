@@ -221,8 +221,8 @@ img {
 }
 
 #nav .container ul {
-    justify-self: end;
     display: flex;
+    justify-self: end;
 }
 
 #nav .container ul li a {
@@ -277,9 +277,7 @@ img {
     margin-bottom: 1rem;
 }
 
-#showcase .showcase-content h1 {
-    font-size: 2.5rem;
-}
+
 
 /* Articles */
 
