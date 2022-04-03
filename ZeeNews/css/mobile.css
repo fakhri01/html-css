@@ -54,6 +54,25 @@
 
 
 @media(max-width: 500px) {
+    #nav .container{
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+
+    #nav .logo{
+        justify-self: center;
+        margin-bottom: 1rem;
+    }
+
+    #nav ul{
+        justify-self: center!important;
+    }
+    #nav ul li{
+        margin-right: .5rem;
+    }
+    #nav ul li a{
+        padding:0.5rem  0.75rem!important;
+    }
 
     #home-articles .articles-container,
     #contact-info .contact-container>div,
